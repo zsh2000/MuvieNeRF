@@ -1,9 +1,8 @@
 > # [ICCV 2023] Multi-task View Synthesis with Neural Radiance Fields <br>
-> [Paper](https://arxiv.org/abs/2206.04669)
+> [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Multi-task_View_Synthesis_with_Neural_Radiance_Fields_ICCV_2023_paper.pdf)
+> [Website](https://zsh2000.github.io/mtvs.github.io/)
 
 This repository contains a PyTorch implementation of our paper "Multi-task View Synthesis with Neural Radiance Fields".
-
-![Pipeline](figs/pipeline.png)
 
 ## Installation
 

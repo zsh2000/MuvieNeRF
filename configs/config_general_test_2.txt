@@ -1,0 +1,24 @@
+### INPUT
+expname = replica_general_test_2
+logdir = logs
+nb_views = 5
+
+## dataset
+dataset_name = llff
+dtu_path = ./scene_22_sn_sl/train_version/replica/new18/
+dtu_pre_path = ./scene_22_sn_sl/train_version/replica/new18/
+llff_path = ./scene_22_sn_sl/train_version/replica/new18/
+ibrnet1_path = ./scene_22_sn_sl/train_version/replica/new18/
+ibrnet2_path = ./scene_22_sn_sl/train_version/replica/new18/
+nerf_path = ./scene_22_sn_sl/train_version/replica/new18/
+llff_test_path = ./scene_22_sn_sl/full_version/replica_test/origin4/
+scene = room_0_sample_5
+
+### TESTING
+chunk = 2048  ### Reduce it to save memory
+
+### TRAINING
+num_steps = 250000
+lrate = 0.0005
+
+batch_size = 1024

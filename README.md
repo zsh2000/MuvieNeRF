@@ -1,5 +1,6 @@
 > # [ICCV 2023] Multi-task View Synthesis with Neural Radiance Fields <br>
 > [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Multi-task_View_Synthesis_with_Neural_Radiance_Fields_ICCV_2023_paper.pdf)
+
 > [Website](https://zsh2000.github.io/mtvs.github.io/)
 
 This repository contains a PyTorch implementation of our paper "Multi-task View Synthesis with Neural Radiance Fields".
@@ -12,7 +13,8 @@ To install the dependencies, follow the official repository of [GeoNeRF](https:/
 
 ## Dataset
 
-TODO.
+The datasets are hosted on [HuggingFace](https://huggingface.co/datasets/ShuhongZheng/MTVS). "replica_training_views.zip" and "scenenet_training_views.zip" are used for training in the main experiments. 
+"replica_training_full.zip" and "scenenet_training_full.zip" are used for held-in testing on novel views of already seen scenes. "replica_testing_full.zip" and "scenenet_testing_full.zip" are used for novel scene evaluation within the same dataset (in-distribution). "llff_full.zip", "tartan_full.zip", "scannet_full.zip", "blended_full.zip" are used for out-of-distribution scene evaluation.
 
 ## Training
 
